@@ -1,0 +1,9 @@
+# Ignore local terraform state and binary folders
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignore private keys and sensitive variables
+*.pem
+*.tfvars
+.env
